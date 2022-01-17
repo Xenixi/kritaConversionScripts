@@ -1,4 +1,3 @@
-from distutils import filelist
 import glob
 import os
 import string
