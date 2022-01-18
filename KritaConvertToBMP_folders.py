@@ -6,4 +6,4 @@ for filename in glob.glob("*.kra"):
     os.makedirs(filename[:-4])
     os.system("krita " + filename + " --export --export-filename " + filename[:-4] + "/" + filename[:-4] + ".bmp")    
     os.rename(filename, filename[:-4] + "/" + filename)
-    print("KritaConvertToPSD_folders: Converted: " + filename)
+    print("KritaConvertToBMP_folders: Converted: " + filename)
